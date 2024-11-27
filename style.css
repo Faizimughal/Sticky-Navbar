@@ -199,3 +199,8 @@ body {
   text-decoration: none;
   color: white;
 }
+@media (max-width: 991.98px) {
+  .back-to-top {
+    display: none;
+  }
+}
