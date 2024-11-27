@@ -11,7 +11,7 @@ body {
 .container {
   max-width: 100vw;
   height: 100vh;
-  background-image: url(images/background.jpg);
+  background-image: url(images/images.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,8 +42,8 @@ body {
   padding: 0 5%;
   align-items: center;
   background-color: white;
-  backdrop-filter: blur(15px);
-  background: transparent;
+  /* backdrop-filter: blur(15px); */
+  /* background: transparent; */
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -203,4 +203,21 @@ body {
   .back-to-top {
     display: none;
   }
+}
+.toggle-navbar {
+  position: fixed;
+  background-color: white;
+  max-width: 100vw;
+  width: 100%;
+  z-index: 1000;
+}
+.toggle-navbar .links > ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  margin-left: -80%;
 }
